@@ -1,10 +1,7 @@
 from datasets import load_dataset
-
-
-from datasets import load_dataset
 import os
 
-class downloadDataset():
+class getDataset():
     def __init__(self):
         self.datasetName = "naver-clova-ix/cord-v2"
         os.makedirs("../../data", exist_ok=True) 
@@ -19,5 +16,5 @@ class downloadDataset():
         print("Dataset splits saved successfully to the respective folders in '../../data/'")
 
 
-d = downloadDataset()
+d = getDataset()
 d.download()

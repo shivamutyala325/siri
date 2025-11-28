@@ -29,5 +29,3 @@ class useModel():
 
         print(response.text)
 
-model=useModel()
-model.generate()

@@ -1,3 +1,5 @@
-import torch
+import os
 
-print(torch.cuda.is_available())
+path = (Path(__file__).parent / "../../artifacts").resolve()
+print("PATH =", path)
+print("FILES =", os.listdir(path))

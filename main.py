@@ -6,7 +6,7 @@ from pydantic import BaseModel
 from dotenv import load_dotenv
 
 from document_utils import download_document, split_into_pages
-from inferApiModel import UseApiModel
+from usemodel import UseApiModel
 
 load_dotenv()  # loads GOOGLE_API_KEY / GEMINI_API_KEY if present
 

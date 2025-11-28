@@ -1,5 +1,8 @@
 python-dotenv
 google-genai
 transformers
-torch
-torchvision
+fastapi
+uvicorn
+requests
+pymupdf
+
